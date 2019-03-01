@@ -1,0 +1,36 @@
+.ceg-modal-mask {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  z-index: 90;
+  background-color: rgba(0, 0, 0, .4);
+}
+
+.ceg-modal-mask-enter {
+  animation: ceg-modal-mask-in .2s ease;
+}
+
+.ceg-modal-mask-leave {
+  animation: ceg-modal-mask-out .2s ease forwards;
+}
+.ceg-modal-message{
+  padding: 0 10px;
+}
+@keyframes ceg-modal-mask-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {}
+}
+
+@keyframes ceg-modal-mask-out {
+  0% {}
+
+  100% {
+    opacity: 0;
+  }
+}
