@@ -1,6 +1,6 @@
 {
   "name": "ceg-ui",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a vue.js h5 ui",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,10 @@
   "keywords": [
     "ceg-ui"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoguotong/ceg-ui.git"
+  },
   "author": "xgt",
   "license": "ISC"
 }
